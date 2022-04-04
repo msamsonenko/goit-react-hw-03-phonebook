@@ -47,7 +47,6 @@ class App extends Component {
   };
 
   render() {
-    console.log('App render');
     const { contacts, filter } = this.state;
     const normalizedText = this.state.filter.toLowerCase();
     const filteredContacts = contacts.filter(contact =>
